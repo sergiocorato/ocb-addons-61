@@ -1,0 +1,441 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* wiki
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 6.0dev\n"
+"Report-Msgid-Bugs-To: support@openerp.com\n"
+"POT-Creation-Date: 2012-02-08 01:37+0100\n"
+"PO-Revision-Date: 2014-07-23 12:46+0000\n"
+"Last-Translator: Matjaž Mozetič (Matmoz) <Unknown>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-07-25 07:36+0000\n"
+"X-Generator: Launchpad (build 17114)\n"
+
+#. module: wiki
+#: field:wiki.groups,template:0
+msgid "Wiki Template"
+msgstr "Predloge wiki-ja"
+
+#. module: wiki
+#: model:ir.actions.act_window,name:wiki.action_wiki
+#: model:ir.ui.menu,name:wiki.menu_action_wiki_wiki
+msgid "Wiki Pages"
+msgstr "Strani wiki"
+
+#. module: wiki
+#: field:wiki.groups,method:0
+msgid "Display Method"
+msgstr "Način prikaza"
+
+#. module: wiki
+#: view:wiki.wiki:0 field:wiki.wiki,create_uid:0
+msgid "Author"
+msgstr "Avtor"
+
+#. module: wiki
+#: model:ir.actions.act_window,name:wiki.action_view_wiki_wiki_page_open
+#: view:wiki.wiki.page.open:0
+msgid "Open Page"
+msgstr "Odpri stran"
+
+#. module: wiki
+#: field:wiki.groups,menu_id:0
+msgid "Menu"
+msgstr "Meni"
+
+#. module: wiki
+#: field:wiki.wiki,section:0
+msgid "Section"
+msgstr "Razdelek"
+
+#. module: wiki
+#: help:wiki.wiki,toc:0
+msgid "Indicates that this pages have a table of contents or not"
+msgstr "Prikazuje, če imajo te strani kazalo ali ne"
+
+#. module: wiki
+#: model:ir.model,name:wiki.model_wiki_wiki_history view:wiki.wiki.history:0
+msgid "Wiki History"
+msgstr "Zgodovina wiki-ja"
+
+#. module: wiki
+#: field:wiki.wiki,minor_edit:0
+msgid "Minor edit"
+msgstr "Manjše urejanje"
+
+#. module: wiki
+#: view:wiki.wiki:0 field:wiki.wiki,text_area:0
+msgid "Content"
+msgstr "Vsebina"
+
+#. module: wiki
+#: field:wiki.wiki,child_ids:0
+msgid "Child Pages"
+msgstr "Podrejene strani"
+
+#. module: wiki
+#: field:wiki.wiki,parent_id:0
+msgid "Parent Page"
+msgstr "Nadrejena stran"
+
+#. module: wiki
+#: view:wiki.wiki:0 field:wiki.wiki,write_uid:0
+msgid "Last Contributor"
+msgstr "Avtor zadnjega prispevka"
+
+#. module: wiki
+#: field:wiki.create.menu,menu_parent_id:0
+msgid "Parent Menu"
+msgstr "Nadrejeni meni"
+
+#. module: wiki
+#: code:addons/wiki/wizard/wiki_make_index.py:52
+#, python-format
+msgid "There is no section in this Page"
+msgstr "Na tej strani ni razdelka"
+
+#. module: wiki
+#: field:wiki.groups,name:0 view:wiki.wiki:0 field:wiki.wiki,group_id:0
+msgid "Wiki Group"
+msgstr "Skupina wiki-ja"
+
+#. module: wiki
+#: field:wiki.wiki,name:0
+msgid "Title"
+msgstr "Naslov"
+
+#. module: wiki
+#: model:ir.model,name:wiki.model_wiki_create_menu
+msgid "Wizard Create Menu"
+msgstr "čarovnik za kreiranje menija"
+
+#. module: wiki
+#: field:wiki.wiki,history_id:0
+msgid "History Lines"
+msgstr "Vrstice zgodovine"
+
+#. module: wiki
+#: view:wiki.wiki:0
+msgid "Page Content"
+msgstr "Vsebina strani"
+
+#. module: wiki
+#: code:addons/wiki/wiki.py:237 code:addons/wiki/wizard/wiki_make_index.py:52
+#, python-format
+msgid "Warning !"
+msgstr "Opozorilo !"
+
+#. module: wiki
+#: code:addons/wiki/wiki.py:237
+#, python-format
+msgid "There are no changes in revisions"
+msgstr "V revizijah ni sprememb"
+
+#. module: wiki
+#: help:wiki.wiki,section:0
+msgid "Use page section code like 1.2.1"
+msgstr "Uporabite oznako razdelka strani npr. 1.2.1"
+
+#. module: wiki
+#: field:wiki.create.menu,menu_name:0
+msgid "Menu Name"
+msgstr "Naziv menuja"
+
+#. module: wiki
+#: field:wiki.groups,notes:0
+msgid "Description"
+msgstr "Opis"
+
+#. module: wiki
+#: field:wiki.wiki,review:0
+msgid "Needs Review"
+msgstr "Potrebuje pregled"
+
+#. module: wiki
+#: help:wiki.wiki,review:0
+msgid ""
+"Indicates that this page should be reviewed, raising the attention of other "
+"contributors"
+msgstr ""
+"Prikazuje, da ta stran ni za pregled, kar usmerja pozornost na druge "
+"prispevke"
+
+#. module: wiki
+#: view:wiki.create.menu:0 view:wiki.make.index:0
+msgid "Menu Information"
+msgstr "Informacije o meniju"
+
+#. module: wiki
+#: model:ir.actions.act_window,name:wiki.act_wiki_wiki_history
+msgid "Page History"
+msgstr "Zgodovina strani"
+
+#. module: wiki
+#: selection:wiki.groups,method:0
+msgid "Tree"
+msgstr "Drevesni prikaz"
+
+#. module: wiki
+#: view:wiki.groups:0
+msgid "Page Template"
+msgstr "Predloga strani"
+
+#. module: wiki
+#: field:wiki.wiki,tags:0
+msgid "Keywords"
+msgstr "Ključne besede"
+
+#. module: wiki
+#: model:ir.actions.act_window,help:wiki.action_wiki
+msgid ""
+"With Wiki Pages you can share ideas and questions with your coworkers. You "
+"can create a new document that can be linked to one or several applications "
+"(CRM, Sales, etc.). You can use keywords to ease access to your wiki pages. "
+"There is a basic wiki editing for text format."
+msgstr ""
+"Z Wiki stranmi lahko delite ideje in vprašanja s sodelavci. Ustvarjeni "
+"dokument lahko povežete z raznimi aplikacijami (CRM, Prodaja, ipd.). Ključne "
+"besede omogočajo lažji dostop do wiki strani. Vsebuje osnovno wiki urejanje "
+"tekstovnega formata."
+
+#. module: wiki
+#: code:addons/wiki/wizard/wiki_show_diff.py:54
+#, python-format
+msgid "Warning"
+msgstr "Opozorilo"
+
+#. module: wiki
+#: help:wiki.groups,home:0
+msgid "Required to select home page if display method is Home Page"
+msgstr "Pri načinu prikaza Domača stran je potrebno izbrati domačo stran."
+
+#. module: wiki
+#: field:wiki.wiki.history,create_date:0
+msgid "Date"
+msgstr "Datum"
+
+#. module: wiki
+#: view:wiki.make.index:0
+msgid "Want to create a Index on Selected Pages ? "
+msgstr "želite ustvariti kazalo na izbranih straneh? "
+
+#. module: wiki
+#: model:ir.actions.act_window,name:wiki.action_view_wiki_show_diff
+#: model:ir.actions.act_window,name:wiki.action_view_wiki_show_diff_values
+#: view:wizard.wiki.history.show_diff:0
+msgid "Difference"
+msgstr "Razlika"
+
+#. module: wiki
+#: field:wiki.groups,page_ids:0
+msgid "Pages"
+msgstr "Strani"
+
+#. module: wiki
+#: view:wiki.groups:0
+msgid "Group Description"
+msgstr "Opis skupine"
+
+#. module: wiki
+#: view:wiki.wiki.page.open:0
+msgid "Want to open a wiki page? "
+msgstr "Želite odpreti wiki stran? "
+
+#. module: wiki
+#: field:wiki.groups,section:0
+msgid "Make Section ?"
+msgstr "Ustvari razdelek?"
+
+#. module: wiki
+#: field:wiki.wiki.history,text_area:0
+msgid "Text area"
+msgstr "Področje besedila"
+
+#. module: wiki
+#: view:wiki.wiki:0
+msgid "Meta Information"
+msgstr "Metapodatki"
+
+#. module: wiki
+#: field:wiki.wiki,create_date:0
+msgid "Created on"
+msgstr "Ustvarjeno"
+
+#. module: wiki
+#: view:wiki.groups:0 view:wizard.wiki.history.show_diff:0
+msgid "Notes"
+msgstr "Opombe"
+
+#. module: wiki
+#: selection:wiki.groups,method:0
+msgid "List"
+msgstr "Seznam"
+
+#. module: wiki
+#: field:wiki.wiki,summary:0 field:wiki.wiki.history,summary:0
+msgid "Summary"
+msgstr "Povzetek"
+
+#. module: wiki
+#: field:wiki.groups,create_date:0
+msgid "Created Date"
+msgstr "Ustvarjeno dne"
+
+#. module: wiki
+#: model:ir.actions.act_window,name:wiki.action_history
+msgid "All Page Histories"
+msgstr "Vse zgodovine strani"
+
+#. module: wiki
+#: model:ir.model,name:wiki.model_wiki_wiki
+msgid "wiki.wiki"
+msgstr "wiki.wiki"
+
+#. module: wiki
+#: help:wiki.groups,method:0
+msgid "Define the default behaviour of the menu created on this group"
+msgstr "Določi privzeto obnašanje menija za to skupino"
+
+#. module: wiki
+#: view:wizard.wiki.history.show_diff:0
+msgid "Close"
+msgstr "Zapri"
+
+#. module: wiki
+#: model:ir.model,name:wiki.model_wizard_wiki_history_show_diff
+msgid "wizard.wiki.history.show_diff"
+msgstr "wizard.wiki.history.show_diff"
+
+#. module: wiki
+#: field:wiki.wiki.history,wiki_id:0
+msgid "Wiki Id"
+msgstr "Oznaka wiki-ja"
+
+#. module: wiki
+#: field:wiki.groups,home:0 selection:wiki.groups,method:0
+msgid "Home Page"
+msgstr "Domača stran"
+
+#. module: wiki
+#: help:wiki.wiki,parent_id:0
+msgid "Allows you to link with the other page with in the current topic"
+msgstr "Omogoča povezovanje z drugimi stranmi na tekočo temo"
+
+#. module: wiki
+#: view:wiki.wiki:0
+msgid "Modification Information"
+msgstr "Podatki o spremembah"
+
+#. module: wiki
+#: help:wiki.wiki,group_id:0
+msgid "Topic, also called Wiki Group"
+msgstr "Tema, imenovana tudi Wiki skupina"
+
+#. module: wiki
+#: model:ir.ui.menu,name:wiki.menu_wiki_configuration view:wiki.wiki:0
+msgid "Wiki"
+msgstr "Wiki"
+
+#. module: wiki
+#: field:wiki.wiki,write_date:0
+msgid "Modification Date"
+msgstr "Datum spremembe"
+
+#. module: wiki
+#: view:wiki.groups:0
+msgid "Configuration"
+msgstr "Nastavitve"
+
+#. module: wiki
+#: model:ir.actions.act_window,name:wiki.action_view_wiki_make_index
+#: model:ir.actions.act_window,name:wiki.action_view_wiki_make_index_values
+#: model:ir.model,name:wiki.model_wiki_make_index view:wiki.make.index:0
+msgid "Create Index"
+msgstr "Ustvari kazalo"
+
+#. module: wiki
+#: code:addons/wiki/wizard/wiki_show_diff.py:54
+#, python-format
+msgid "You need to select minimum 1 or maximum 2 history revision!"
+msgstr "Izbrati je potrebno vsaj 1 ali največ 2 zgodovinske revizije!"
+
+#. module: wiki
+#: view:wiki.wiki:0
+msgid "Group By..."
+msgstr "Združi po..."
+
+#. module: wiki
+#: model:ir.actions.act_window,name:wiki.action_wiki_create_menu
+#: view:wiki.create.menu:0 view:wiki.groups:0 view:wiki.make.index:0
+msgid "Create Menu"
+msgstr "Ustvari meni"
+
+#. module: wiki
+#: field:wiki.wiki.history,minor_edit:0
+msgid "This is a major edit ?"
+msgstr "Je to pomembnejše urejanje?"
+
+#. module: wiki
+#: model:ir.actions.act_window,name:wiki.action_wiki_groups
+#: model:ir.actions.act_window,name:wiki.action_wiki_groups_browse
+#: model:ir.model,name:wiki.model_wiki_groups
+#: model:ir.ui.menu,name:wiki.menu_action_wiki_groups view:wiki.groups:0
+msgid "Wiki Groups"
+msgstr "Skupine wiki-ja"
+
+#. module: wiki
+#: view:wiki.wiki:0
+msgid "Topic"
+msgstr "Tema"
+
+#. module: wiki
+#: field:wiki.wiki.history,write_uid:0
+msgid "Modify By"
+msgstr "Spremenil"
+
+#. module: wiki
+#: code:addons/wiki/web/widgets/wikimarkup/__init__.py:1981
+#: field:wiki.wiki,toc:0
+#, python-format
+msgid "Table of Contents"
+msgstr "Kazalo vsebin"
+
+#. module: wiki
+#: view:wiki.groups:0 view:wiki.wiki.page.open:0
+msgid "Open Wiki Page"
+msgstr "Odpri Wiki stran"
+
+#. module: wiki
+#: model:ir.model,name:wiki.model_wiki_wiki_page_open
+msgid "wiz open page"
+msgstr "Čarovnik za odpiranje strani"
+
+#. module: wiki
+#: view:wiki.create.menu:0 view:wiki.make.index:0 view:wiki.wiki.page.open:0
+msgid "Cancel"
+msgstr "Preklic"
+
+#. module: wiki
+#: field:wizard.wiki.history.show_diff,file_path:0
+msgid "Diff"
+msgstr "Razlika"
+
+#. module: wiki
+#: view:wiki.wiki:0
+msgid "Need Review"
+msgstr "Potrebuje pregled"
+
+#. module: wiki
+#: model:ir.actions.act_window,name:wiki.action_wiki_review
+msgid "Pages Waiting Review"
+msgstr "Strani v pregledu"
+
+#. module: wiki
+#: model:ir.actions.act_window,name:wiki.act_wiki_group_open
+msgid "Search Page"
+msgstr "Iskanje strani"

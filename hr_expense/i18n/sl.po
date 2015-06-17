@@ -1,0 +1,891 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* hr_expense
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 6.0dev\n"
+"Report-Msgid-Bugs-To: support@openerp.com\n"
+"POT-Creation-Date: 2012-02-08 01:37+0100\n"
+"PO-Revision-Date: 2014-08-01 12:03+0000\n"
+"Last-Translator: Matjaž Mozetič (Matmoz) <Unknown>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-08-02 06:24+0000\n"
+"X-Generator: Launchpad (build 17147)\n"
+
+#. module: hr_expense
+#: model:process.node,name:hr_expense.process_node_confirmedexpenses0
+msgid "Confirmed Expenses"
+msgstr "Potrjeni izdatki"
+
+#. module: hr_expense
+#: model:ir.model,name:hr_expense.model_hr_expense_line
+msgid "Expense Line"
+msgstr "Postavka izdatka"
+
+#. module: hr_expense
+#: model:process.node,note:hr_expense.process_node_reimbursement0
+msgid "The accoutant reimburse the expenses"
+msgstr "Računovodja povrne stroške"
+
+#. module: hr_expense
+#: field:hr.expense.expense,date_confirm:0
+#: field:hr.expense.report,date_confirm:0
+msgid "Confirmation Date"
+msgstr "Datum Potrditve"
+
+#. module: hr_expense
+#: view:hr.expense.expense:0 view:hr.expense.report:0
+msgid "Group By..."
+msgstr "Združi po..."
+
+#. module: hr_expense
+#: model:product.template,name:hr_expense.air_ticket_product_template
+msgid "Air Ticket"
+msgstr "Letalska vozovnica"
+
+#. module: hr_expense
+#: report:hr.expense:0
+msgid "Validated By"
+msgstr "Overil"
+
+#. module: hr_expense
+#: view:hr.expense.expense:0 field:hr.expense.expense,department_id:0
+#: view:hr.expense.report:0 field:hr.expense.report,department_id:0
+msgid "Department"
+msgstr "Oddelek"
+
+#. module: hr_expense
+#: view:hr.expense.expense:0
+msgid "New Expense"
+msgstr "Nov izdatek"
+
+#. module: hr_expense
+#: selection:hr.expense.report,month:0
+msgid "March"
+msgstr "Marec"
+
+#. module: hr_expense
+#: field:hr.expense.report,invoiced:0
+msgid "# of Invoiced Lines"
+msgstr "# neobračunanih postavk"
+
+#. module: hr_expense
+#: field:hr.expense.expense,company_id:0 view:hr.expense.report:0
+#: field:hr.expense.report,company_id:0
+msgid "Company"
+msgstr "Podjetje"
+
+#. module: hr_expense
+#: view:hr.expense.expense:0
+msgid "Set to Draft"
+msgstr "Nastavi kot osnutek"
+
+#. module: hr_expense
+#: view:hr.expense.expense:0
+msgid "To Pay"
+msgstr "Za plačilo"
+
+#. module: hr_expense
+#: model:ir.model,name:hr_expense.model_hr_expense_report
+msgid "Expenses Statistics"
+msgstr "Statistika izdatkov"
+
+#. module: hr_expense
+#: view:hr.expense.report:0 field:hr.expense.report,day:0
+msgid "Day"
+msgstr "Dan"
+
+#. module: hr_expense
+#: field:hr.expense.line,uom_id:0 view:product.product:0
+msgid "UoM"
+msgstr "EM"
+
+#. module: hr_expense
+#: help:hr.expense.expense,date_valid:0
+msgid ""
+"Date of the acceptation of the sheet expense. It's filled when the button "
+"Accept is pressed."
+msgstr ""
+"Datum sprejema zahtevka za povrnitev izdatkov. Izpolnjeno ob pritisku gumba "
+"'Sprejmi'."
+
+#. module: hr_expense
+#: view:hr.expense.report:0
+msgid "Expenses during current month"
+msgstr "Izdatki tekočega meseca"
+
+#. module: hr_expense
+#: view:hr.expense.expense:0
+msgid "Notes"
+msgstr "Opombe"
+
+#. module: hr_expense
+#: field:hr.expense.expense,invoice_id:0
+msgid "Employee's Invoice"
+msgstr "Računi kadra"
+
+#. module: hr_expense
+#: view:product.product:0
+msgid "Products"
+msgstr "Proizvodi"
+
+#. module: hr_expense
+#: view:hr.expense.report:0
+msgid "Confirm Expenses"
+msgstr "Potrdi izdatke"
+
+#. module: hr_expense
+#: selection:hr.expense.report,state:0
+msgid "Cancelled"
+msgstr "Preklicano"
+
+#. module: hr_expense
+#: model:process.node,note:hr_expense.process_node_refused0
+msgid "The direct manager refuses the sheet.Reset as draft."
+msgstr ""
+"Neposredni upravitelj je zahtevek za povrnitev zavrnil. Nastavi kot osnutek."
+
+#. module: hr_expense
+#: view:hr.expense.expense:0
+msgid "Validation"
+msgstr "Overjanje"
+
+#. module: hr_expense
+#: selection:hr.expense.report,state:0
+msgid "Waiting confirmation"
+msgstr "Čaka na potrditev"
+
+#. module: hr_expense
+#: selection:hr.expense.report,state:0
+msgid "Accepted"
+msgstr "Sprejeto"
+
+#. module: hr_expense
+#: report:hr.expense:0 field:hr.expense.expense,ref:0
+#: field:hr.expense.line,ref:0
+msgid "Reference"
+msgstr "Sklic"
+
+#. module: hr_expense
+#: report:hr.expense:0
+msgid "Certified honest and conform,"
+msgstr "Potrjen kot pošten in ustrezen,"
+
+#. module: hr_expense
+#: help:hr.expense.expense,date_confirm:0
+msgid ""
+"Date of the confirmation of the sheet expense. It's filled when the button "
+"Confirm is pressed."
+msgstr ""
+"Datum potrditve zahtevka za povrnitev izdatkov. Izpolnjen ob pritisku gumba "
+"Potrdi."
+
+#. module: hr_expense
+#: view:hr.expense.report:0 field:hr.expense.report,nbr:0
+msgid "# of Lines"
+msgstr "# postavk"
+
+#. module: hr_expense
+#: model:process.transition,name:hr_expense.process_transition_refuseexpense0
+msgid "Refuse expense"
+msgstr "Zavrni izdatek"
+
+#. module: hr_expense
+#: field:hr.expense.report,price_average:0
+msgid "Average Price"
+msgstr "Povprečna cena"
+
+#. module: hr_expense
+#: view:hr.expense.report:0
+msgid "Total Invoiced Lines"
+msgstr "Skupaj neobračunanih postavk"
+
+#. module: hr_expense
+#: view:hr.expense.expense:0
+#: model:process.transition.action,name:hr_expense.process_transition_action_confirm0
+msgid "Confirm"
+msgstr "Potrdi"
+
+#. module: hr_expense
+#: model:process.node,note:hr_expense.process_node_supplierinvoice0
+msgid "The accoutant validates the sheet"
+msgstr "Računovodja overi zahtevek za povrnitev"
+
+#. module: hr_expense
+#: code:addons/hr_expense/hr_expense.py:187
+#, python-format
+msgid "The employee's home address must have a partner linked."
+msgstr "Domači naslov kadra mora biti povezan s partnerjem"
+
+#. module: hr_expense
+#: field:hr.expense.report,delay_valid:0
+msgid "Delay to Valid"
+msgstr "Zamik do overitve"
+
+#. module: hr_expense
+#: help:hr.expense.line,sequence:0
+msgid "Gives the sequence order when displaying a list of expense lines."
+msgstr "Zaporedje na seznamu postavk izdatka."
+
+#. module: hr_expense
+#: field:hr.expense.line,analytic_account:0 view:hr.expense.report:0
+#: field:hr.expense.report,analytic_account:0
+msgid "Analytic account"
+msgstr "Analitični konto"
+
+#. module: hr_expense
+#: field:hr.expense.report,date:0
+msgid "Date "
+msgstr "Datum "
+
+#. module: hr_expense
+#: field:hr.expense.expense,state:0 view:hr.expense.report:0
+#: field:hr.expense.report,state:0
+msgid "State"
+msgstr "Stanje"
+
+#. module: hr_expense
+#: code:addons/hr_expense/hr_expense.py:173
+#, python-format
+msgid ""
+"Please configure Default Expense account for Product purchase, "
+"`property_account_expense_categ`"
+msgstr ""
+"Določi privzeti konto izdatkov za nabavo proizvodov, "
+"`property_account_expense_categ`"
+
+#. module: hr_expense
+#: view:hr.expense.report:0
+msgid "Expenses during last month"
+msgstr "Izdatki v zadnjem mesecu"
+
+#. module: hr_expense
+#: report:hr.expense:0 view:hr.expense.expense:0
+#: field:hr.expense.expense,employee_id:0 view:hr.expense.report:0
+msgid "Employee"
+msgstr "Kader"
+
+#. module: hr_expense
+#: view:hr.expense.expense:0 selection:hr.expense.expense,state:0
+msgid "New"
+msgstr "Novo"
+
+#. module: hr_expense
+#: view:hr.expense.expense:0
+msgid "Confirmed Expense"
+msgstr "Potrjeni izdatek"
+
+#. module: hr_expense
+#: report:hr.expense:0 field:hr.expense.report,product_qty:0
+msgid "Qty"
+msgstr "Kol."
+
+#. module: hr_expense
+#: view:hr.expense.report:0 field:hr.expense.report,price_total:0
+msgid "Total Price"
+msgstr "Skupaj cena"
+
+#. module: hr_expense
+#: model:process.node,note:hr_expense.process_node_reinvoicing0
+msgid "Some costs may be reinvoices to the customer"
+msgstr "Nekateri stroški se lahko obračunajo kupcu"
+
+#. module: hr_expense
+#: code:addons/hr_expense/hr_expense.py:173
+#: code:addons/hr_expense/hr_expense.py:185
+#: code:addons/hr_expense/hr_expense.py:187
+#, python-format
+msgid "Error !"
+msgstr "Napaka!"
+
+#. module: hr_expense
+#: view:board.board:0
+#: model:ir.actions.act_window,name:hr_expense.action_my_expense
+msgid "My Expenses"
+msgstr "Moji izdatki"
+
+#. module: hr_expense
+#: view:hr.expense.report:0
+msgid "Creation Date"
+msgstr "Datum nastanka"
+
+#. module: hr_expense
+#: model:ir.actions.report.xml,name:hr_expense.hr_expenses
+msgid "HR expenses"
+msgstr "Izdatki kadrov"
+
+#. module: hr_expense
+#: field:hr.expense.expense,id:0
+msgid "Sheet ID"
+msgstr "ID zahtevka za povrnitev"
+
+#. module: hr_expense
+#: model:process.transition,name:hr_expense.process_transition_reimburseexpense0
+msgid "Reimburse expense"
+msgstr "Povrnitev stroškov"
+
+#. module: hr_expense
+#: field:hr.expense.expense,journal_id:0 field:hr.expense.report,journal_id:0
+msgid "Force Journal"
+msgstr "Vsili dnevnik"
+
+#. module: hr_expense
+#: view:hr.expense.report:0 field:hr.expense.report,no_of_products:0
+msgid "# of Products"
+msgstr "# proizvodov"
+
+#. module: hr_expense
+#: selection:hr.expense.report,month:0
+msgid "July"
+msgstr "Julij"
+
+#. module: hr_expense
+#: model:process.transition,note:hr_expense.process_transition_reimburseexpense0
+msgid "After creating invoice, reimburse expenses"
+msgstr "Po nastanku računa povrni stroške"
+
+#. module: hr_expense
+#: model:process.node,name:hr_expense.process_node_reimbursement0
+msgid "Reimbursement"
+msgstr "Povračilo"
+
+#. module: hr_expense
+#: view:hr.expense.report:0
+msgid "    Month-1    "
+msgstr "    Mesec-1    "
+
+#. module: hr_expense
+#: field:hr.expense.expense,date_valid:0 field:hr.expense.report,date_valid:0
+msgid "Validation Date"
+msgstr "Datum overitve"
+
+#. module: hr_expense
+#: view:hr.expense.expense:0
+msgid "My Department"
+msgstr "Moj oddelek"
+
+#. module: hr_expense
+#: view:hr.expense.report:0
+#: model:ir.actions.act_window,name:hr_expense.action_hr_expense_report_all
+#: model:ir.ui.menu,name:hr_expense.menu_hr_expense_report_all
+msgid "Expenses Analysis"
+msgstr "Analiza izdatkov"
+
+#. module: hr_expense
+#: view:hr.expense.expense:0 field:hr.expense.line,expense_id:0
+#: model:ir.model,name:hr_expense.model_hr_expense_expense
+#: model:process.process,name:hr_expense.process_process_expenseprocess0
+msgid "Expense"
+msgstr "Izdatek"
+
+#. module: hr_expense
+#: view:hr.expense.expense:0 field:hr.expense.expense,line_ids:0
+#: view:hr.expense.line:0
+msgid "Expense Lines"
+msgstr "Postavke izdatkov"
+
+#. module: hr_expense
+#: field:hr.expense.report,delay_confirm:0
+msgid "Delay to Confirm"
+msgstr "Zamik do potrditve"
+
+#. module: hr_expense
+#: selection:hr.expense.report,month:0
+msgid "September"
+msgstr "September"
+
+#. module: hr_expense
+#: selection:hr.expense.report,month:0
+msgid "December"
+msgstr "December"
+
+#. module: hr_expense
+#: view:hr.expense.report:0
+msgid "Invoiced Expenses"
+msgstr "Obračunani izdatki"
+
+#. module: hr_expense
+#: view:hr.expense.expense:0 view:hr.expense.report:0
+#: field:hr.expense.report,month:0
+msgid "Month"
+msgstr "Mesec"
+
+#. module: hr_expense
+#: field:hr.expense.expense,currency_id:0
+#: field:hr.expense.report,currency_id:0
+msgid "Currency"
+msgstr "Valuta"
+
+#. module: hr_expense
+#: selection:hr.expense.expense,state:0
+msgid "Waiting Approval"
+msgstr "Čaka odobritev"
+
+#. module: hr_expense
+#: model:process.node,note:hr_expense.process_node_draftexpenses0
+msgid "Employee encode all his expenses"
+msgstr "Kader vnaša vse svoje izdatke"
+
+#. module: hr_expense
+#: selection:hr.expense.expense,state:0 view:hr.expense.report:0
+#: selection:hr.expense.report,state:0
+msgid "Invoiced"
+msgstr "Zaračunano"
+
+#. module: hr_expense
+#: field:product.product,hr_expense_ok:0
+msgid "Can Constitute an Expense"
+msgstr "Lahko predstavlja izdatek"
+
+#. module: hr_expense
+#: selection:hr.expense.expense,state:0 selection:hr.expense.report,state:0
+msgid "Reimbursed"
+msgstr "Povrnjeno"
+
+#. module: hr_expense
+#: field:hr.expense.expense,note:0
+msgid "Note"
+msgstr "Opomba"
+
+#. module: hr_expense
+#: model:process.transition,note:hr_expense.process_transition_reimbursereinvoice0
+msgid "Create Customer invoice"
+msgstr "Izdaj račun kupcu"
+
+#. module: hr_expense
+#: selection:hr.expense.report,state:0
+msgid "Draft"
+msgstr "Osnutek"
+
+#. module: hr_expense
+#: view:hr.expense.expense:0
+msgid "Accounting data"
+msgstr "Računovodski podatki"
+
+#. module: hr_expense
+#: model:process.transition,note:hr_expense.process_transition_approveexpense0
+msgid "Expense is approved."
+msgstr "Izdatek potrjen"
+
+#. module: hr_expense
+#: selection:hr.expense.report,month:0
+msgid "August"
+msgstr "Avgust"
+
+#. module: hr_expense
+#: model:process.node,note:hr_expense.process_node_approved0
+msgid "The direct manager approves the sheet"
+msgstr "Neposredni upravitelj odobri zahtevek za povrnitev"
+
+#. module: hr_expense
+#: field:hr.expense.expense,amount:0
+msgid "Total Amount"
+msgstr "Skupni znesek"
+
+#. module: hr_expense
+#: selection:hr.expense.report,month:0
+msgid "June"
+msgstr "Junij"
+
+#. module: hr_expense
+#: model:process.node,name:hr_expense.process_node_draftexpenses0
+msgid "Draft Expenses"
+msgstr "Osnutek izdatkov"
+
+#. module: hr_expense
+#: view:hr.expense.expense:0
+msgid "Customer Project"
+msgstr "Projekt kupca"
+
+#. module: hr_expense
+#: model:ir.actions.act_window,name:hr_expense.product_normal_form_view_installer
+msgid "Review Your Expenses Products"
+msgstr "Pregled svojih izdatkov-proizvodov"
+
+#. module: hr_expense
+#: report:hr.expense:0 field:hr.expense.expense,date:0
+#: field:hr.expense.line,date_value:0
+msgid "Date"
+msgstr "Datum"
+
+#. module: hr_expense
+#: selection:hr.expense.report,month:0
+msgid "November"
+msgstr "November"
+
+#. module: hr_expense
+#: view:hr.expense.report:0
+msgid "Extended Filters..."
+msgstr "Razširjeni filtri..."
+
+#. module: hr_expense
+#: view:hr.expense.expense:0 field:hr.expense.expense,user_id:0
+msgid "User"
+msgstr "Uporabnik"
+
+#. module: hr_expense
+#: code:addons/hr_expense/hr_expense.py:185
+#, python-format
+msgid "The employee must have a Home address."
+msgstr "Kader mora imeti domači naslov"
+
+#. module: hr_expense
+#: selection:hr.expense.report,month:0
+msgid "October"
+msgstr "Oktober"
+
+#. module: hr_expense
+#: report:hr.expense:0
+msgid "Total:"
+msgstr "Skupaj:"
+
+#. module: hr_expense
+#: selection:hr.expense.report,month:0
+msgid "January"
+msgstr "Januar"
+
+#. module: hr_expense
+#: report:hr.expense:0
+msgid "HR Expenses"
+msgstr "Izdatki kadrov"
+
+#. module: hr_expense
+#: model:product.template,name:hr_expense.car_travel_product_template
+msgid "Car Travel Expenses"
+msgstr "Potni stroški"
+
+#. module: hr_expense
+#: view:hr.expense.expense:0
+msgid "Submit to Manager"
+msgstr "Predloži upravitelju"
+
+#. module: hr_expense
+#: model:process.node,note:hr_expense.process_node_confirmedexpenses0
+msgid "The employee validates his expense sheet"
+msgstr "Kader overi svoj zahtevek za povrnitev izdatkov"
+
+#. module: hr_expense
+#: view:hr.expense.expense:0
+msgid "Expenses to Invoice"
+msgstr "Izdatki za obračun"
+
+#. module: hr_expense
+#: model:process.node,name:hr_expense.process_node_supplierinvoice0
+#: model:process.transition,name:hr_expense.process_transition_approveinvoice0
+msgid "Supplier Invoice"
+msgstr "Račun dobavitelja"
+
+#. module: hr_expense
+#: view:hr.expense.expense:0
+msgid "Expenses Sheet"
+msgstr "Zahtevek za povrnitev izdatkov"
+
+#. module: hr_expense
+#: view:hr.expense.report:0
+msgid "Waiting"
+msgstr "V čakanju"
+
+#. module: hr_expense
+#: view:hr.expense.report:0
+msgid "Approved Expenses"
+msgstr "Odobreni izdatki"
+
+#. module: hr_expense
+#: report:hr.expense:0 field:hr.expense.line,unit_amount:0
+msgid "Unit Price"
+msgstr "Cena enote"
+
+#. module: hr_expense
+#: view:hr.expense.expense:0
+msgid "References"
+msgstr "Sklici"
+
+#. module: hr_expense
+#: view:hr.expense.expense:0 field:hr.expense.report,invoice_id:0
+#: model:process.transition.action,name:hr_expense.process_transition_action_supplierinvoice0
+msgid "Invoice"
+msgstr "Račun"
+
+#. module: hr_expense
+#: model:process.transition,name:hr_expense.process_transition_reimbursereinvoice0
+msgid "Reinvoice"
+msgstr "Zaračunaj"
+
+#. module: hr_expense
+#: view:board.board:0
+#: model:ir.actions.act_window,name:hr_expense.action_employee_expense
+msgid "All Employee Expenses"
+msgstr "Vsi izdatki kadra"
+
+#. module: hr_expense
+#: view:hr.expense.expense:0
+msgid "Other Info"
+msgstr "Ostale informacije"
+
+#. module: hr_expense
+#: help:hr.expense.expense,journal_id:0
+msgid "The journal used when the expense is invoiced"
+msgstr "Dnevnik za obračun izdatkov"
+
+#. module: hr_expense
+#: view:hr.expense.expense:0
+#: model:process.transition.action,name:hr_expense.process_transition_action_refuse0
+msgid "Refuse"
+msgstr "Zavrni"
+
+#. module: hr_expense
+#: model:process.transition,name:hr_expense.process_transition_confirmexpense0
+msgid "Confirm expense"
+msgstr "Potrdi izdatek"
+
+#. module: hr_expense
+#: model:process.transition,name:hr_expense.process_transition_approveexpense0
+msgid "Approve expense"
+msgstr "Odobri izdatek"
+
+#. module: hr_expense
+#: model:process.transition.action,name:hr_expense.process_transition_action_accept0
+msgid "Accept"
+msgstr "Sprejmi"
+
+#. module: hr_expense
+#: report:hr.expense:0
+msgid "This document must be dated and signed for reimbursement"
+msgstr "Ta dokument mora biti označen z datumom in podpisan za povračilo."
+
+#. module: hr_expense
+#: model:process.transition,note:hr_expense.process_transition_refuseexpense0
+msgid "Expense is refused."
+msgstr "Izdatek je zavrnjen"
+
+#. module: hr_expense
+#: model:ir.actions.act_window,help:hr_expense.product_normal_form_view_installer
+msgid ""
+"Define one product for each expense type allowed for an employee (travel by "
+"car, hostel, restaurant, etc). If you reimburse the employees at a fixed "
+"rate, set a cost and a unit of measure on the product. If you reimburse "
+"based on real costs, set the cost at 0.00. The user will set the real price "
+"when recording his expense sheet."
+msgstr ""
+"Določite proizvod za vsak tip Izdatka, ki je kadrom dovoljen (potni stroški, "
+"hotel, restavracija, itd.). Če izvajate povračila zaposlenim v fiksnem "
+"znesku, določite ceno (strošek) in enoto mere za ta proizvod. Če povrnete "
+"dejanske stroške, postavite ceno na 0. Uporabnik bo vpisal pravilno ceno, ko "
+"bo pripravljal svoj zahtevek za povrnitev izdatkov."
+
+#. module: hr_expense
+#: selection:hr.expense.expense,state:0 view:hr.expense.report:0
+#: model:process.node,name:hr_expense.process_node_approved0
+msgid "Approved"
+msgstr "Odobreno"
+
+#. module: hr_expense
+#: code:addons/hr_expense/hr_expense.py:141
+#, python-format
+msgid "Supplier Invoices"
+msgstr "Računi dobaviteljev"
+
+#. module: hr_expense
+#: field:hr.expense.line,product_id:0 view:hr.expense.report:0
+#: field:hr.expense.report,product_id:0
+#: model:ir.model,name:hr_expense.model_product_product
+msgid "Product"
+msgstr "Proizvod"
+
+#. module: hr_expense
+#: view:hr.expense.expense:0
+msgid "Expenses of My Department"
+msgstr "Izdatki mojega oddelka"
+
+#. module: hr_expense
+#: view:hr.expense.expense:0 field:hr.expense.expense,name:0
+#: field:hr.expense.line,description:0
+msgid "Description"
+msgstr "Opis"
+
+#. module: hr_expense
+#: selection:hr.expense.report,month:0
+msgid "May"
+msgstr "Maj"
+
+#. module: hr_expense
+#: field:hr.expense.line,unit_quantity:0
+msgid "Quantities"
+msgstr "Količine"
+
+#. module: hr_expense
+#: report:hr.expense:0
+msgid "Price"
+msgstr "Cena"
+
+#. module: hr_expense
+#: field:hr.expense.report,no_of_account:0
+msgid "# of Accounts"
+msgstr "# kontov"
+
+#. module: hr_expense
+#: selection:hr.expense.expense,state:0
+#: model:process.node,name:hr_expense.process_node_refused0
+msgid "Refused"
+msgstr "Zavrnjeno"
+
+#. module: hr_expense
+#: report:hr.expense:0
+msgid "Ref."
+msgstr "Sklic"
+
+#. module: hr_expense
+#: field:hr.expense.report,employee_id:0
+msgid "Employee's Name"
+msgstr "Naziv kadra"
+
+#. module: hr_expense
+#: model:ir.actions.act_window,help:hr_expense.expense_all
+msgid ""
+"The OpenERP expenses management module allows you to track the full flow. "
+"Every month, the employees record their expenses. At the end of the month, "
+"their managers validates the expenses sheets which creates costs on "
+"projects/analytic accounts. The accountant validates the proposed entries "
+"and the employee can be reimbursed. You can also reinvoice the customer at "
+"the end of the flow."
+msgstr ""
+"Upravljanje izdatkov omogoča spremljanje celotnega toka. Vsak mesec kadri "
+"vpisujejo svoje izdatke. Ob koncu meseca upravitelj overja zahtevke po "
+"povračilu, kar ustvari stroške na analitičnih kontih. Računovodja overi "
+"predlagane vknjižbe in kader dobi izplačano nadomestilo. Izdatke lahko tudi "
+"obračunamo kupcu ob koncu toka."
+
+#. module: hr_expense
+#: view:hr.expense.expense:0
+msgid "This Month"
+msgstr "Ta mesec"
+
+#. module: hr_expense
+#: field:hr.expense.expense,user_valid:0 view:hr.expense.report:0
+#: field:hr.expense.report,user_id:0
+msgid "Validation User"
+msgstr "Overitelj"
+
+#. module: hr_expense
+#: report:hr.expense:0
+msgid "(Date and signature)"
+msgstr "(Datum in podpis)"
+
+#. module: hr_expense
+#: selection:hr.expense.report,month:0
+msgid "February"
+msgstr "Februar"
+
+#. module: hr_expense
+#: report:hr.expense:0
+msgid "Name"
+msgstr "Naziv"
+
+#. module: hr_expense
+#: field:hr.expense.expense,account_move_id:0
+msgid "Ledger Posting"
+msgstr "Knjiženje v glavno knjigo"
+
+#. module: hr_expense
+#: model:process.transition,note:hr_expense.process_transition_approveinvoice0
+msgid "Creates supplier invoice."
+msgstr "Ustvari dobaviteljev račun"
+
+#. module: hr_expense
+#: model:product.template,name:hr_expense.hotel_rent_product_template
+msgid "Hotel Accommodation"
+msgstr "Hotelska nastanitev"
+
+#. module: hr_expense
+#: selection:hr.expense.report,month:0
+msgid "April"
+msgstr "April"
+
+#. module: hr_expense
+#: field:hr.expense.line,name:0
+msgid "Expense Note"
+msgstr "Opomba k izdatku"
+
+#. module: hr_expense
+#: help:hr.expense.expense,state:0
+msgid ""
+"When the expense request is created the state is 'Draft'.\n"
+" It is confirmed by the user and request is sent to admin, the state is "
+"'Waiting Confirmation'.            \n"
+"If the admin accepts it, the state is 'Accepted'.\n"
+" If an invoice is made for the expense request, the state is 'Invoiced'.\n"
+" If the expense is paid to user, the state is 'Reimbursed'."
+msgstr ""
+"Ob nastanku je zahtevek po povračilu v stanju 'Osnutek'.\n"
+" Po potrditvi s strani uporabnika, preide v stanje 'Čaka na odobritev.       "
+"     \n"
+"Če upravitelj sprejme je stanje 'Sprejeto'.\n"
+" Če se obračuna naprej, je stanje 'Obračunano'.\n"
+" Po izplačilu povračila je stanje 'Povrnjeno'."
+
+#. module: hr_expense
+#: view:hr.expense.expense:0
+msgid "Approve"
+msgstr "Odobri"
+
+#. module: hr_expense
+#: view:hr.expense.line:0 field:hr.expense.line,total_amount:0
+msgid "Total"
+msgstr "Skupaj"
+
+#. module: hr_expense
+#: view:hr.expense.report:0
+msgid "Expenses during current year"
+msgstr "Izdatki v tekočem letu"
+
+#. module: hr_expense
+#: field:hr.expense.line,sequence:0
+msgid "Sequence"
+msgstr "Zaporedje"
+
+#. module: hr_expense
+#: model:process.transition,note:hr_expense.process_transition_confirmexpense0
+msgid "Expense is confirmed."
+msgstr "Izdatek je potrjen."
+
+#. module: hr_expense
+#: view:hr.expense.expense:0
+#: model:ir.actions.act_window,name:hr_expense.expense_all
+#: model:ir.ui.menu,name:hr_expense.menu_expense_all
+#: model:ir.ui.menu,name:hr_expense.next_id_49
+#: model:product.category,name:hr_expense.cat_expense
+msgid "Expenses"
+msgstr "Izdatki"
+
+#. module: hr_expense
+#: constraint:product.product:0
+msgid "Error: Invalid ean code"
+msgstr "Napaka: neveljavna ean koda"
+
+#. module: hr_expense
+#: view:hr.expense.report:0 field:hr.expense.report,year:0
+msgid "Year"
+msgstr "Leto"
+
+#. module: hr_expense
+#: view:hr.expense.expense:0
+msgid "To Approve"
+msgstr "Za odobritev"
+
+#. module: hr_expense
+#: help:product.product,hr_expense_ok:0
+msgid ""
+"Determines if the product can be visible in the list of product within a "
+"selection from an HR expense sheet line."
+msgstr ""
+"Določi, če je proizvod viden na seznamu proizvodov v postavki zahtevka v "
+"sklopu obrazca izdatki kadrov"
+
+#. module: hr_expense
+#: model:process.node,name:hr_expense.process_node_reinvoicing0
+msgid "Reinvoicing"
+msgstr "Obračun"

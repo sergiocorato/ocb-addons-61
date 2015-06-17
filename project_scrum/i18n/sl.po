@@ -1,0 +1,1056 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* project_scrum
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 6.0dev\n"
+"Report-Msgid-Bugs-To: support@openerp.com\n"
+"POT-Creation-Date: 2012-02-08 00:37+0000\n"
+"PO-Revision-Date: 2014-08-07 09:41+0000\n"
+"Last-Translator: Matjaž Mozetič (Matmoz) <Unknown>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-08-08 06:46+0000\n"
+"X-Generator: Launchpad (build 17156)\n"
+
+#. module: project_scrum
+#: view:project.scrum.backlog.assign.sprint:0
+msgid "_Assign"
+msgstr "_Dodeli"
+
+#. module: project_scrum
+#: field:project.scrum.meeting,name:0
+msgid "Meeting Name"
+msgstr "Naziv sestanka"
+
+#. module: project_scrum
+#: model:process.transition,note:project_scrum.process_transition_backlogtask0
+msgid "From backlog create task."
+msgstr "Ustvari opravilo iz zaostanka"
+
+#. module: project_scrum
+#: view:project.scrum.product.backlog:0
+#: field:project.scrum.product.backlog,user_id:0
+msgid "Author"
+msgstr "Avtor"
+
+#. module: project_scrum
+#: view:project.scrum.meeting:0
+#: view:project.scrum.sprint:0
+msgid "What did you do since the last meeting?"
+msgstr "Kaj ste opravili od zadnjega sestanka?"
+
+#. module: project_scrum
+#: view:project.scrum.sprint:0
+msgid "Sprint Month"
+msgstr "Mesec sprinta"
+
+#. module: project_scrum
+#: model:ir.actions.act_window,help:project_scrum.action_sprint_all_tree
+msgid ""
+"The scrum agile methodology is used in software development projects. In "
+"this methodology, a sprint is a short period of time (e.g. one month) during "
+"which the team implements a list of product backlogs. The sprint review is "
+"organized when the team presents its work to the customer and product owner."
+msgstr ""
+"Scrum agilna metodologija se uporablja pri projektih razvoja programske "
+"opreme. Po tej metodologiji, je sprint kratko časovno obdobje (npr. 1 mesec) "
+"med katerim ekipa realizira seznam vseh zaostalih opravil. Pregled sprinta "
+"je organiziran, ko ekipa predstavi opravljeno delo kupcu ali lastniku "
+"proizvoda."
+
+#. module: project_scrum
+#: view:project.scrum.meeting:0
+#: view:project.scrum.product.backlog:0
+#: view:project.scrum.sprint:0
+msgid "Group By..."
+msgstr "Združi po..."
+
+#. module: project_scrum
+#: model:process.node,note:project_scrum.process_node_productbacklog0
+msgid "Create task from backlogs"
+msgstr "Ustvari opravilo iz zaostankov"
+
+#. module: project_scrum
+#: field:project.scrum.sprint,name:0
+msgid "Sprint Name"
+msgstr "Naziv sprinta"
+
+#. module: project_scrum
+#: field:project.scrum.product.backlog,progress:0
+msgid "Progress"
+msgstr "Potek"
+
+#. module: project_scrum
+#: field:project.scrum.meeting,user_id:0
+#: view:project.scrum.sprint:0
+#: field:project.scrum.sprint,scrum_master_id:0
+msgid "Scrum Master"
+msgstr "Scrum Master"
+
+#. module: project_scrum
+#: code:addons/project_scrum/project_scrum.py:83
+#, python-format
+msgid "The sprint '%s' has been opened."
+msgstr "Sprint '%s' je začet."
+
+#. module: project_scrum
+#: constraint:project.project:0
+msgid "Error! project start-date must be lower then project end-date."
+msgstr "Začetni datum mora biti pred končnim."
+
+#. module: project_scrum
+#: view:project.scrum.meeting:0
+#: view:project.scrum.sprint:0
+msgid "Are your Sprint Backlog estimate accurate ?"
+msgstr "So vaše ocene zaostankov za Sprint točne?"
+
+#. module: project_scrum
+#: view:project.scrum.sprint:0
+msgid "Retrospective"
+msgstr "Retrospektiva"
+
+#. module: project_scrum
+#: view:project.scrum.meeting:0
+#: view:project.scrum.sprint:0
+msgid "Send Email"
+msgstr "Pošlji e-pošto"
+
+#. module: project_scrum
+#: constraint:project.task:0
+msgid "Error ! You cannot create recursive tasks."
+msgstr "Napaka ! Ne morete ustvarjati rekurzivnih opravil."
+
+#. module: project_scrum
+#: view:project.scrum.sprint:0
+msgid "In Progress Sprints"
+msgstr "Sprinti v teku"
+
+#. module: project_scrum
+#: view:project.scrum.product.backlog:0
+msgid "For changing to delegate state"
+msgstr "Sprememba v delegirano stanje"
+
+#. module: project_scrum
+#: code:addons/project_scrum/wizard/project_scrum_backlog_sprint.py:62
+#, python-format
+msgid "Product Backlog '%s' is assigned to sprint %s"
+msgstr "Zaostanki proizvoda '%s' so dodeljeni sprintu %s"
+
+#. module: project_scrum
+#: model:ir.actions.act_window,name:project_scrum.dblc_proj
+msgid "View project's backlog"
+msgstr "Pregled projektnih zaostankov"
+
+#. module: project_scrum
+#: view:project.scrum.product.backlog:0
+#: view:project.scrum.sprint:0
+msgid "Set to Draft"
+msgstr "Nastavi kot osnutek"
+
+#. module: project_scrum
+#: model:ir.model,name:project_scrum.model_project_scrum_backlog_merge
+msgid "Merge Product Backlogs"
+msgstr "Združi zaostanke proizvoda"
+
+#. module: project_scrum
+#: model:ir.actions.act_window,name:project_scrum.action_scrum_backlog_merge
+#: view:project.scrum.backlog.merge:0
+msgid "Merge Backlogs"
+msgstr "Združi zaostanke"
+
+#. module: project_scrum
+#: code:addons/project_scrum/wizard/mail_compose_message.py:54
+#: code:addons/project_scrum/wizard/project_scrum_email.py:53
+#, python-format
+msgid "Scrum Meeting : %s"
+msgstr "Scrum sestanek: %s"
+
+#. module: project_scrum
+#: view:project.task:0
+msgid "Backlog"
+msgstr "Zaostanki"
+
+#. module: project_scrum
+#: constraint:project.project:0
+msgid "Error! You cannot assign escalation to the same project!"
+msgstr "Napaka! Projekta ne morete stopnjevati v samega sebe!"
+
+#. module: project_scrum
+#: model:ir.model,name:project_scrum.model_project_task
+msgid "Task"
+msgstr "Opravilo"
+
+#. module: project_scrum
+#: view:postpone.wizard:0
+msgid "Ok"
+msgstr "V redu"
+
+#. module: project_scrum
+#: view:project.scrum.product.backlog:0
+msgid "Spent hours"
+msgstr "Porabljene ure"
+
+#. module: project_scrum
+#: model:ir.actions.act_window,help:project_scrum.action_meeting_form
+msgid ""
+"The scrum agile methodology is used in software development projects. In "
+"this methodology, a daily meeting is organized by the scrum master with his "
+"team in order to detect the difficulties the team faced/will face."
+msgstr ""
+"Scrum agilna metodologija se uporablja pri projektih razvoja programske "
+"opreme. Po teh metodologiji Scrum vodja organizira sestanek s svojo ekipo za "
+"določitev vseh težav, s katerimi se bo ekipa soočila."
+
+#. module: project_scrum
+#: view:project.scrum.product.backlog:0
+msgid "Backlogs Assigned To Current Sprints"
+msgstr "Zaostanki dodeljeni tekočim sprintom"
+
+#. module: project_scrum
+#: view:project.scrum.product.backlog:0
+msgid "For cancelling the task"
+msgstr "Za preklic opravila"
+
+#. module: project_scrum
+#: model:ir.model,name:project_scrum.model_project_scrum_product_backlog
+#: view:project.scrum.product.backlog:0
+#: field:project.task,product_backlog_id:0
+msgid "Product Backlog"
+msgstr "Zaostanki proizvoda"
+
+#. module: project_scrum
+#: model:ir.model,name:project_scrum.model_project_project
+#: field:project.scrum.backlog.merge,project_id:0
+#: field:project.scrum.meeting,project_id:0
+#: view:project.scrum.product.backlog:0
+#: field:project.scrum.product.backlog,project_id:0
+#: view:project.scrum.sprint:0
+#: field:project.scrum.sprint,project_id:0
+msgid "Project"
+msgstr "Projekt"
+
+#. module: project_scrum
+#: view:project.scrum.product.backlog:0
+msgid "Start Task"
+msgstr "Začetek opravila"
+
+#. module: project_scrum
+#: code:addons/project_scrum/wizard/project_scrum_email.py:91
+#: code:addons/project_scrum/wizard/project_scrum_email.py:94
+#: code:addons/project_scrum/wizard/project_scrum_email.py:97
+#, python-format
+msgid "None"
+msgstr "Brez"
+
+#. module: project_scrum
+#: view:project.scrum.product.backlog:0
+msgid "Change Stage"
+msgstr "Spremeni stopnjo"
+
+#. module: project_scrum
+#: field:project.scrum.sprint,date_stop:0
+msgid "Ending Date"
+msgstr "Končni datum"
+
+#. module: project_scrum
+#: view:project.scrum.meeting:0
+#: view:project.scrum.sprint:0
+msgid "Links"
+msgstr "Povezave"
+
+#. module: project_scrum
+#: help:project.scrum.sprint,effective_hours:0
+msgid "Computed using the sum of the task work done."
+msgstr "Vsota opravljenega dela."
+
+#. module: project_scrum
+#: code:addons/project_scrum/wizard/project_scrum_email.py:92
+#, python-format
+msgid "Task for Today"
+msgstr "Današnja opravila"
+
+#. module: project_scrum
+#: field:project.scrum.backlog.assign.sprint,state_open:0
+msgid "Open Backlog"
+msgstr "Odpri zaostanke"
+
+#. module: project_scrum
+#: view:project.scrum.product.backlog:0
+msgid "Total Spent Hours"
+msgstr "Skupaj porabljenih ur"
+
+#. module: project_scrum
+#: view:project.scrum.sprint:0
+msgid "Pending Sprints"
+msgstr "Sprinti na čakanju"
+
+#. module: project_scrum
+#: code:addons/project_scrum/wizard/project_scrum_email.py:95
+#, python-format
+msgid "Blocking points encountered:"
+msgstr "Točke zaustavitve, na katere smo naleteli:"
+
+#. module: project_scrum
+#: view:project.scrum.product.backlog:0
+msgid "Backlogs Not Assigned To Sprints."
+msgstr "Zaostanki, ki niso dodeljeni sprintom."
+
+#. module: project_scrum
+#: view:project.scrum.sprint:0
+msgid "Planning"
+msgstr "Načrtovanje"
+
+#. module: project_scrum
+#: view:project.scrum.backlog.assign.sprint:0
+#: view:project.scrum.backlog.create.task:0
+msgid "_Cancel"
+msgstr "_Preklic"
+
+#. module: project_scrum
+#: help:project.scrum.sprint,scrum_master_id:0
+msgid "The person who is maintains the processes for the product"
+msgstr "Vzdrževalec procesov proizvoda"
+
+#. module: project_scrum
+#: view:project.scrum.product.backlog:0
+#: field:project.scrum.product.backlog,expected_hours:0
+#: field:project.scrum.sprint,expected_hours:0
+msgid "Planned Hours"
+msgstr "Načrtovane ure"
+
+#. module: project_scrum
+#: view:board.board:0
+#: model:ir.actions.act_window,name:project_scrum.action_sprint_all_dashboard_tree
+#: model:ir.actions.act_window,name:project_scrum.action_sprint_all_tree
+#: model:ir.ui.menu,name:project_scrum.menu_action_sprint_all_tree
+#: view:project.scrum.product.backlog:0
+#: view:project.scrum.sprint:0
+msgid "Sprints"
+msgstr "Sprinti"
+
+#. module: project_scrum
+#: field:project.scrum.backlog.assign.sprint,convert_to_task:0
+msgid "Convert To Task"
+msgstr "Pretvori v opravilo"
+
+#. module: project_scrum
+#: view:project.scrum.backlog.merge:0
+msgid "Are you sure you want to merge these Backlogs?"
+msgstr "Ste prepričani, da želite združiti te zaostanke?"
+
+#. module: project_scrum
+#: help:project.scrum.backlog.create.task,user_id:0
+msgid "Responsible user who can work on task"
+msgstr "Uporabnik odgovoren za opravljanje dela na opravilu"
+
+#. module: project_scrum
+#: view:project.scrum.product.backlog:0
+#: field:project.scrum.product.backlog,state:0
+#: view:project.scrum.sprint:0
+#: field:project.scrum.sprint,state:0
+msgid "State"
+msgstr "Stanje"
+
+#. module: project_scrum
+#: model:ir.actions.act_window,name:project_scrum.action_sprint_task_open
+msgid "View sprint Tasks"
+msgstr "Pregled opravil sprinta"
+
+#. module: project_scrum
+#: view:project.scrum.sprint:0
+msgid "New"
+msgstr "Nov"
+
+#. module: project_scrum
+#: field:project.scrum.sprint,meeting_ids:0
+msgid "Daily Scrum"
+msgstr "Dnevni Scrum"
+
+#. module: project_scrum
+#: view:project.scrum.backlog.create.task:0
+msgid "C_onvert"
+msgstr "Pr_etvori"
+
+#. module: project_scrum
+#: view:project.scrum.product.backlog:0
+msgid "Pending Backlogs"
+msgstr "Zaostanki na čakanju"
+
+#. module: project_scrum
+#: model:ir.actions.act_window,name:project_scrum.action_product_backlog_form
+#: model:ir.ui.menu,name:project_scrum.menu_action_product_backlog_form
+#: view:project.scrum.product.backlog:0
+msgid "Product Backlogs"
+msgstr "Zaostanki proizvoda"
+
+#. module: project_scrum
+#: model:ir.model,name:project_scrum.model_mail_compose_message
+msgid "E-mail composition wizard"
+msgstr "Čarovnik za sestavljanje e-pošte"
+
+#. module: project_scrum
+#: field:project.scrum.product.backlog,create_date:0
+msgid "Creation Date"
+msgstr "Datum nastanka"
+
+#. module: project_scrum
+#: view:project.scrum.meeting:0
+#: view:project.scrum.sprint:0
+msgid "Are there anything blocking you?"
+msgstr "Obstajajo ovire, ki vas zaustavljajo?"
+
+#. module: project_scrum
+#: model:ir.ui.menu,name:project_scrum.menu_scrum
+msgid "Scrum"
+msgstr "Scrum"
+
+#. module: project_scrum
+#: field:project.scrum.meeting,question_today:0
+msgid "Tasks for today"
+msgstr "Današnja opravila"
+
+#. module: project_scrum
+#: code:addons/project_scrum/wizard/project_scrum_email.py:89
+#: field:project.scrum.meeting,question_yesterday:0
+#, python-format
+msgid "Tasks since yesterday"
+msgstr "Opravila od včeraj"
+
+#. module: project_scrum
+#: code:addons/project_scrum/wizard/project_scrum_backlog_merger.py:39
+#: code:addons/project_scrum/wizard/project_scrum_backlog_merger.py:71
+#, python-format
+msgid "Warning"
+msgstr "Opozorilo"
+
+#. module: project_scrum
+#: view:project.scrum.product.backlog:0
+#: selection:project.scrum.product.backlog,state:0
+#: view:project.scrum.sprint:0
+#: selection:project.scrum.sprint,state:0
+msgid "Pending"
+msgstr "Na čakanju"
+
+#. module: project_scrum
+#: model:ir.model,name:project_scrum.model_project_scrum_backlog_assign_sprint
+msgid "Assign sprint to backlogs"
+msgstr "Dodeli sprint zaostankom"
+
+#. module: project_scrum
+#: help:project.scrum.sprint,expected_hours:0
+msgid "Estimated time to do the task."
+msgstr "Ocena časa za dokončanje opravila."
+
+#. module: project_scrum
+#: field:project.scrum.product.backlog,task_hours:0
+msgid "Task Hours"
+msgstr "Ure na opravilu"
+
+#. module: project_scrum
+#: view:project.scrum.sprint:0
+msgid "Dates"
+msgstr "Datumi"
+
+#. module: project_scrum
+#: selection:project.scrum.product.backlog,state:0
+#: selection:project.scrum.sprint,state:0
+msgid "Cancelled"
+msgstr "Preklicano"
+
+#. module: project_scrum
+#: model:ir.actions.act_window,name:project_scrum.dblc_proj2
+msgid "View project's tasks"
+msgstr "Pregled projektnih opravil"
+
+#. module: project_scrum
+#: code:addons/project_scrum/wizard/mail_compose_message.py:55
+#: code:addons/project_scrum/wizard/project_scrum_email.py:56
+#, python-format
+msgid ""
+"Hello  , \n"
+"I am sending you Scrum Meeting : %s for the Sprint  '%s' of Project '%s'"
+msgstr ""
+"Pozdravljeni, \n"
+"Vabljeni ste na Scrum sestanek: %s za Sprint  '%s' na projektu '%s'"
+
+#. module: project_scrum
+#: view:project.scrum.meeting:0
+msgid "Daily"
+msgstr "Dnevno"
+
+#. module: project_scrum
+#: field:project.scrum.sprint,backlog_ids:0
+msgid "Sprint Backlog"
+msgstr "Zaostanki sprinta"
+
+#. module: project_scrum
+#: view:project.scrum.product.backlog:0
+msgid "Delegate"
+msgstr "Delegiraj"
+
+#. module: project_scrum
+#: view:board.board:0
+msgid "My Board"
+msgstr "Moja nadzorna plošča"
+
+#. module: project_scrum
+#: code:addons/project_scrum/project_scrum.py:90
+#, python-format
+msgid "The sprint '%s' has been closed."
+msgstr "Sprint '%s' je zaklučen."
+
+#. module: project_scrum
+#: view:board.board:0
+#: model:ir.actions.act_window,name:project_scrum.action_view_task_progress_graph
+#: view:project.task:0
+msgid "Task Progress"
+msgstr "Napredek opravila"
+
+#. module: project_scrum
+#: view:project.scrum.meeting:0
+#: field:project.scrum.meeting,date:0
+msgid "Meeting Date"
+msgstr "Datum sestanka"
+
+#. module: project_scrum
+#: model:ir.actions.act_window,name:project_scrum.act_scrum_sprint_2_project_task
+#: view:project.scrum.meeting:0
+#: field:project.scrum.meeting,task_ids:0
+#: view:project.scrum.product.backlog:0
+#: view:project.scrum.sprint:0
+msgid "Tasks"
+msgstr "Opravila"
+
+#. module: project_scrum
+#: help:project.scrum.backlog.assign.sprint,sprint_id:0
+msgid "Select Sprint to assign backlog."
+msgstr "Izberi sprint za dodelitev zaostankov"
+
+#. module: project_scrum
+#: help:project.scrum.product.backlog,progress:0
+#: help:project.scrum.sprint,progress:0
+msgid "Computed as: Time Spent / Total Time."
+msgstr "Izračunano kot: porabljeni čas/skupni čas"
+
+#. module: project_scrum
+#: view:project.scrum.meeting:0
+#: view:project.scrum.sprint:0
+msgid "Month"
+msgstr "Mesec"
+
+#. module: project_scrum
+#: view:project.scrum.product.backlog:0
+msgid "Draft Backlogs"
+msgstr "Osnutki zaostankov"
+
+#. module: project_scrum
+#: field:project.scrum.meeting,question_blocks:0
+msgid "Blocks encountered"
+msgstr "Zaustavitve, na katere smo naleteli"
+
+#. module: project_scrum
+#: help:project.scrum.backlog.assign.sprint,state_open:0
+msgid "Change the state of product backlogs to open if its in draft state"
+msgstr ""
+"Spremenite stanje zaostankov proizvoda za odprtje, če je v stanju osnutka."
+
+#. module: project_scrum
+#: view:project.scrum.product.backlog:0
+msgid "Total Planned Hours"
+msgstr "Skupaj načrtovanih ur"
+
+#. module: project_scrum
+#: help:project.project,product_owner_id:0
+#: help:project.scrum.sprint,product_owner_id:0
+msgid "The person who is responsible for the product"
+msgstr "Odgovorni za proizvod"
+
+#. module: project_scrum
+#: view:project.scrum.meeting:0
+#: view:project.scrum.sprint:0
+msgid "What do you plan to do till the next meeting?"
+msgstr "Kaj načrtujete do naslednjega sestanka?"
+
+#. module: project_scrum
+#: view:project.scrum.meeting:0
+#: view:project.scrum.sprint:0
+msgid "Scrum Sprint"
+msgstr "Scrum Sprint"
+
+#. module: project_scrum
+#: view:project.scrum.product.backlog:0
+#: view:project.scrum.sprint:0
+msgid "In Progress"
+msgstr "V teku"
+
+#. module: project_scrum
+#: view:project.scrum.sprint:0
+msgid "Product owner"
+msgstr "Lastnik proizvoda"
+
+#. module: project_scrum
+#: view:project.scrum.sprint:0
+msgid "Review"
+msgstr "Pregled"
+
+#. module: project_scrum
+#: field:project.scrum.sprint,retrospective:0
+msgid "Sprint Retrospective"
+msgstr "Retrospektiva sprinta"
+
+#. module: project_scrum
+#: field:project.scrum.product.backlog,note:0
+msgid "Note"
+msgstr "Opomba"
+
+#. module: project_scrum
+#: view:project.scrum.product.backlog:0
+#: selection:project.scrum.product.backlog,state:0
+#: selection:project.scrum.sprint,state:0
+msgid "Draft"
+msgstr "Osnutek"
+
+#. module: project_scrum
+#: help:project.task,product_backlog_id:0
+msgid ""
+"Related product backlog that contains this task. Used in SCRUM methodology"
+msgstr ""
+"Povezani zaostanki proizvoda, ki vsebuje to opravilo. Uporabljeno pri SCRUM "
+"metodologiji."
+
+#. module: project_scrum
+#: model:ir.actions.act_window,name:project_scrum.action_postpone_wizard
+#: view:postpone.wizard:0
+#: view:project.scrum.product.backlog:0
+msgid "Postpone"
+msgstr "Odloži"
+
+#. module: project_scrum
+#: view:project.scrum.product.backlog:0
+msgid "Change Type"
+msgstr "Tip spremembe"
+
+#. module: project_scrum
+#: view:project.scrum.product.backlog:0
+msgid "For changing to done state"
+msgstr "Za spremembo v stanje Opravljeno"
+
+#. module: project_scrum
+#: view:project.scrum.sprint:0
+msgid "New Sprints"
+msgstr "Novi sprinti"
+
+#. module: project_scrum
+#: view:project.scrum.meeting:0
+#: view:project.scrum.sprint:0
+msgid "Optional Info"
+msgstr "Opcijske informacije"
+
+#. module: project_scrum
+#: model:ir.model,name:project_scrum.model_project_scrum_backlog_create_task
+msgid "Create Tasks from Product Backlogs"
+msgstr "Ustvari opravila iz zaostankov proizvoda"
+
+#. module: project_scrum
+#: help:project.project,sprint_size:0
+msgid "Number of days allocated for sprint"
+msgstr "Število dni dodeljenih sprintu"
+
+#. module: project_scrum
+#: field:project.project,product_owner_id:0
+#: field:project.scrum.sprint,product_owner_id:0
+msgid "Product Owner"
+msgstr "Lastnik proizvoda"
+
+#. module: project_scrum
+#: help:project.scrum.product.backlog,sequence:0
+msgid "Gives the sequence order when displaying a list of product backlog."
+msgstr "Poda zaporedje pri prikazu seznama zaostankov proizvoda."
+
+#. module: project_scrum
+#: model:process.node,name:project_scrum.process_node_productbacklog0
+#: view:project.scrum.product.backlog:0
+msgid "Product backlog"
+msgstr "Zaostanki proizvoda"
+
+#. module: project_scrum
+#: model:ir.actions.act_window,name:project_scrum.act_scrum_sprint_2_product_backlog
+msgid "Backlogs"
+msgstr "Zaostanki"
+
+#. module: project_scrum
+#: help:project.scrum.backlog.assign.sprint,convert_to_task:0
+msgid "Create Task for Product Backlog"
+msgstr "Ustvari opravilo iz zaostankov proizvoda"
+
+#. module: project_scrum
+#: field:project.scrum.product.backlog,active:0
+msgid "Active"
+msgstr "Aktivno"
+
+#. module: project_scrum
+#: model:ir.actions.act_window,name:project_scrum.action_meeting_form
+#: model:ir.ui.menu,name:project_scrum.menu_action_meeting_form
+msgid "Scrum Meetings"
+msgstr "Scrum sestanki"
+
+#. module: project_scrum
+#: help:project.scrum.product.backlog,expected_hours:0
+msgid "Estimated total time to do the Backlog"
+msgstr "Ocenjeni skupen čas za odpravo zaostankov"
+
+#. module: project_scrum
+#: help:project.scrum.backlog.merge,project_id:0
+msgid "Select project for the new product backlog"
+msgstr "Izberi projekt za nove zaostanke proizvoda"
+
+#. module: project_scrum
+#: view:project.scrum.backlog.merge:0
+msgid "Merge"
+msgstr "Združi"
+
+#. module: project_scrum
+#: model:ir.actions.act_window,name:project_scrum.action_sprint_backlog_open
+msgid "View sprint backlog"
+msgstr "Pregled zaostankov sprinta"
+
+#. module: project_scrum
+#: field:project.scrum.meeting,question_backlog:0
+msgid "Backlog Accurate"
+msgstr "Natančni zaostanki"
+
+#. module: project_scrum
+#: model:ir.actions.act_window,name:project_scrum.action_scrum_backlog_to_task
+#: view:project.scrum.backlog.create.task:0
+#: view:project.scrum.product.backlog:0
+msgid "Convert to Task"
+msgstr "Pretvori v opravilo"
+
+#. module: project_scrum
+#: help:project.scrum.sprint,project_id:0
+msgid ""
+"If you have [?] in the project name, it means there are no analytic account "
+"linked to this project."
+msgstr ""
+"Če naziv projekta vsebuje [?], pomeni, da ni analitičnih kontov povezanih s "
+"tem projektom."
+
+#. module: project_scrum
+#: field:project.scrum.product.backlog,sequence:0
+msgid "Sequence"
+msgstr "Zaporedje"
+
+#. module: project_scrum
+#: view:board.board:0
+#: model:ir.actions.act_window,name:project_scrum.action_view_backlog_progress_graph
+#: view:project.scrum.product.backlog:0
+msgid "Backlog Progress"
+msgstr "Napredek pri zaostankih"
+
+#. module: project_scrum
+#: view:project.scrum.product.backlog:0
+#: selection:project.scrum.product.backlog,state:0
+#: selection:project.scrum.sprint,state:0
+msgid "Done"
+msgstr "Opravljeno"
+
+#. module: project_scrum
+#: view:project.scrum.backlog.merge:0
+#: view:project.scrum.product.backlog:0
+msgid "Cancel"
+msgstr "Preklic"
+
+#. module: project_scrum
+#: view:postpone.wizard:0
+#: view:project.scrum.product.backlog:0
+#: view:project.scrum.sprint:0
+msgid "Close"
+msgstr "Zaključi"
+
+#. module: project_scrum
+#: view:project.scrum.product.backlog:0
+#: selection:project.scrum.product.backlog,state:0
+#: view:project.scrum.sprint:0
+#: selection:project.scrum.sprint,state:0
+msgid "Open"
+msgstr "Odpri"
+
+#. module: project_scrum
+#: view:project.scrum.sprint:0
+#: field:project.scrum.sprint,effective_hours:0
+msgid "Effective hours"
+msgstr "Efektivne ure"
+
+#. module: project_scrum
+#: view:project.scrum.product.backlog:0
+msgid "Information"
+msgstr "Informacije"
+
+#. module: project_scrum
+#: code:addons/project_scrum/wizard/project_scrum_backlog_sprint.py:57
+#, python-format
+msgid "Product Backlog '%s' is converted into Task %d."
+msgstr "Zaostanek proizvoda '%s' je pretvorjen v opravilo %d."
+
+#. module: project_scrum
+#: view:project.scrum.product.backlog:0
+msgid "Remaining Hours"
+msgstr "Preostale ure"
+
+#. module: project_scrum
+#: constraint:project.task:0
+msgid "Error ! Task end-date must be greater then task start-date"
+msgstr "Začetni datum mora biti pred končnim."
+
+#. module: project_scrum
+#: view:project.scrum.sprint:0
+msgid "Responsible"
+msgstr "Odgovorni"
+
+#. module: project_scrum
+#: field:project.scrum.product.backlog,name:0
+msgid "Feature"
+msgstr "Lastnost"
+
+#. module: project_scrum
+#: view:project.scrum.product.backlog:0
+msgid "My Backlogs"
+msgstr "Moji zaostanki"
+
+#. module: project_scrum
+#: view:project.scrum.product.backlog:0
+msgid "In Progress Backlogs"
+msgstr "Zaostanki v teku"
+
+#. module: project_scrum
+#: view:project.task:0
+msgid "View Sprints"
+msgstr "Pregled sprintov"
+
+#. module: project_scrum
+#: model:ir.actions.act_window,help:project_scrum.action_product_backlog_form
+msgid ""
+"The scrum agile methodology is used in software development projects. The "
+"Product Backlog is the list of features to be implemented. A product backlog "
+"can be planified in a development sprint and may be split into several "
+"tasks. The product backlog is managed by the product owner of the project."
+msgstr ""
+"Scrum agilna metodologija se uporablja pri projektih razvoja programske "
+"opreme. Zaostanki proizvoda so seznam lastnosti, ki jih je še potrebno "
+"izvesti. Zaostanke proizvoda se lahko načrtuje v razvojnem sprintu in se "
+"lahko razdeli v več opravil. Zaostanke proizvoda upravlja lastnik proizvoda "
+"za izbrani projekt."
+
+#. module: project_scrum
+#: view:project.scrum.product.backlog:0
+msgid "Postpone backlog"
+msgstr "Odloži zaostanke"
+
+#. module: project_scrum
+#: model:process.transition,name:project_scrum.process_transition_backlogtask0
+msgid "Backlog Task"
+msgstr "Opravilo zaostanka"
+
+#. module: project_scrum
+#: view:project.scrum.product.backlog:0
+#: view:project.scrum.sprint:0
+msgid "Planned hours"
+msgstr "Načrtovane ure"
+
+#. module: project_scrum
+#: field:project.scrum.sprint,date_start:0
+msgid "Starting Date"
+msgstr "Začetni datum"
+
+#. module: project_scrum
+#: model:ir.model,name:project_scrum.model_project_scrum_meeting
+#: view:project.scrum.meeting:0
+#: view:project.scrum.sprint:0
+msgid "Scrum Meeting"
+msgstr "Scrum sestanek"
+
+#. module: project_scrum
+#: model:ir.actions.report.xml,name:project_scrum.report_scrum_sprint_burndown_chart
+#: view:project.scrum.sprint:0
+msgid "Burndown Chart"
+msgstr "Burndown diagram"
+
+#. module: project_scrum
+#: view:project.scrum.meeting:0
+#: view:project.scrum.sprint:0
+msgid "Daily Meetings"
+msgstr "Dnevni sestanki"
+
+#. module: project_scrum
+#: view:project.scrum.sprint:0
+msgid "Expected hours"
+msgstr "Pričakovane ure"
+
+#. module: project_scrum
+#: field:project.project,sprint_size:0
+msgid "Sprint Days"
+msgstr "Dni sprinta"
+
+#. module: project_scrum
+#: field:project.scrum.sprint,progress:0
+msgid "Progress (0-100)"
+msgstr "Napredek (0-100)"
+
+#. module: project_scrum
+#: view:project.scrum.sprint:0
+msgid "Sprint Info"
+msgstr "Informacije o sprintu"
+
+#. module: project_scrum
+#: help:project.scrum.product.backlog,active:0
+msgid ""
+"If Active field is set to true, it will allow you to hide the product "
+"backlog without removing it."
+msgstr "Če aktivno, se zaostanek proizvoda lahko skrije ne da bi ga brisali."
+
+#. module: project_scrum
+#: help:project.scrum.product.backlog,task_hours:0
+msgid "Estimated time of the total hours of the tasks"
+msgstr "Ocenjeno skupno število ur na opravilih"
+
+#. module: project_scrum
+#: view:project.project:0
+msgid "Scrum Data"
+msgstr "Scrum podatki"
+
+#. module: project_scrum
+#: field:project.project,scrum:0
+msgid "Is a Scrum Project"
+msgstr "Je Scrum projekt"
+
+#. module: project_scrum
+#: view:project.scrum.product.backlog:0
+msgid "Edit"
+msgstr "Urejanje"
+
+#. module: project_scrum
+#: field:project.scrum.product.backlog,tasks_id:0
+msgid "Tasks Details"
+msgstr "Podrobnosti opravil"
+
+#. module: project_scrum
+#: model:ir.model,name:project_scrum.model_postpone_wizard
+msgid "postpone.wizard"
+msgstr "postpone.wizard"
+
+#. module: project_scrum
+#: view:project.scrum.backlog.merge:0
+msgid ""
+"This wizard merge backlogs and create one new backlog with draft state (Old "
+"backlogs Will be deleted). And it also merge old tasks from backlogs"
+msgstr ""
+"Ta čarovnik združuje zaostanke in ustvari nov zaostanek v stanju osnutek "
+"(stari zaostanki bodo zbrisani). Prav tako združi stara opravila vezana na "
+"stare zaostanke."
+
+#. module: project_scrum
+#: view:postpone.wizard:0
+msgid "Postpone Backlog"
+msgstr "Odloži zaostanek"
+
+#. module: project_scrum
+#: view:project.scrum.backlog.merge:0
+msgid "Select the project for merged backlogs"
+msgstr "Izberi projekt za združene zaostanke"
+
+#. module: project_scrum
+#: view:board.board:0
+#: model:ir.actions.act_window,name:project_scrum.action_view_my_scrum_sprint_tree
+msgid "My Sprint"
+msgstr "Moj sprint"
+
+#. module: project_scrum
+#: field:project.scrum.product.backlog,effective_hours:0
+msgid "Spent Hours"
+msgstr "Porabljene ure"
+
+#. module: project_scrum
+#: help:project.scrum.product.backlog,effective_hours:0
+msgid "Computed using the sum of the time spent on every related tasks"
+msgstr "Izračunano kot vsota porabljenega časa na vseh povezanih opravilih."
+
+#. module: project_scrum
+#: model:ir.actions.act_window,name:project_scrum.open_board_project_scrum
+#: model:ir.ui.menu,name:project_scrum.menu_deshboard_scurm
+msgid "Scrum Dashboard"
+msgstr "Scrum nadzorna plošča"
+
+#. module: project_scrum
+#: model:ir.model,name:project_scrum.model_project_scrum_sprint
+msgid "Project Scrum Sprint"
+msgstr "Projektni scrum sprint"
+
+#. module: project_scrum
+#: view:project.scrum.product.backlog:0
+msgid "Feature Description"
+msgstr "Opis lastnosti"
+
+#. module: project_scrum
+#: code:addons/project_scrum/wizard/project_scrum_backlog_merger.py:71
+#, python-format
+msgid "Please select any Project."
+msgstr "Izberite katerikoli projekt"
+
+#. module: project_scrum
+#: code:addons/project_scrum/wizard/project_scrum_email.py:98
+#, python-format
+msgid "Thank you,"
+msgstr "Hvala,"
+
+#. module: project_scrum
+#: view:project.scrum.meeting:0
+#: view:project.task:0
+msgid "Current Sprints"
+msgstr "Tekoči sprinti"
+
+#. module: project_scrum
+#: model:ir.actions.act_window,name:project_scrum.action_scrum_backlog_to_sprint
+#: view:project.scrum.backlog.assign.sprint:0
+msgid "Assign Sprint"
+msgstr "Dodeli sprint"
+
+#. module: project_scrum
+#: field:project.scrum.backlog.create.task,user_id:0
+msgid "Assign To"
+msgstr "Dodeli k"
+
+#. module: project_scrum
+#: view:postpone.wizard:0
+msgid "Are you sure to postpone Backlog ?"
+msgstr "Ste prepričani v odložitev zaostanka?"
+
+#. module: project_scrum
+#: view:project.scrum.product.backlog:0
+msgid "For changing to open state"
+msgstr "Sprememba v odprto ..."
+
+#. module: project_scrum
+#: field:project.scrum.backlog.assign.sprint,sprint_id:0
+#: view:project.scrum.meeting:0
+#: field:project.scrum.meeting,sprint_id:0
+#: view:project.scrum.product.backlog:0
+#: field:project.scrum.product.backlog,sprint_id:0
+#: view:project.task:0
+#: field:project.task,sprint_id:0
+msgid "Sprint"
+msgstr "Sprint"
+
+#. module: project_scrum
+#: code:addons/project_scrum/wizard/project_scrum_backlog_merger.py:39
+#, python-format
+msgid "Please select at least two product Backlogs"
+msgstr "Izberite vsaj dva zaostanka proizvoda"
+
+#. module: project_scrum
+#: field:project.scrum.sprint,review:0
+msgid "Sprint Review"
+msgstr "Sprint pregled"
