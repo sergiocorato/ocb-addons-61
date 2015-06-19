@@ -21,7 +21,7 @@
 
 {
     "name" : "Warehouse Management",
-    "version" : "1.1a",
+    "version" : "1.1b",
     "author" : "OpenERP SA",
     'complexity': "easy",
     "description" : """
