@@ -29,7 +29,7 @@ class stock_fill_inventory(osv.osv_memory):
         'location_id': fields.many2one('stock.location', 'Location', required=True),
         'recursive': fields.boolean("Include children",help="If checked, products contained in child locations of selected location will be included as well."),
         'set_stock_zero': fields.boolean("Set to zero",help="If checked, all product quantities will be set to zero to help ensure a real physical inventory is done"),
-        'date': fields.date("Date of inventory",help="Using 'Fill inventory' wizard, the inventory will be calculated at this date"),
+        'date': fields.date("Date of inventory", required=True, help="Using 'Fill inventory' wizard, the inventory will be calculated at this date"),
     }
     def view_init(self, cr, uid, fields_list, context=None):
         """
